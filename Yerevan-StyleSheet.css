@@ -1,0 +1,58 @@
+﻿body {
+    margin: 0;
+    text-align: center;
+    background-color: #edf2fb;
+}
+#header {
+    background-image: url("images/yerevan.jpg");
+    background-size: cover;
+    padding: 300px;
+    font-size: 30px;
+    color: #ffba08;
+    text-shadow: 0 0 5px black;
+}
+    #header:hover {
+        background-image: url("images/intro1.gif");
+        background-size:cover;
+        background-position:center;
+    }
+#mid {
+    font-size: 50px;
+    padding: 40px;
+    margin-top: 0;
+    text-shadow: 0 0 3px black;
+}
+.describ {
+    background-color: #00509d;
+    border: 10px solid #00a8e8;
+    width: 400px;
+    border-radius: 100px;
+    padding: 30px 10px;
+}
+#middle {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.img {
+    width: 300px;
+    border-radius: 500px;
+    margin-top: 20px;
+    border: 8px double #00a8e8;
+}
+#mid-part {
+    background-color: #edf2fb;
+    color: #ffc300; 
+}
+a {
+    color: inherit;
+}
+#footer {
+    font-size: 20px;
+    color: #ffc300;
+    border-top: 5px double #ffc300;
+    border-bottom: 5px double #ffc300;
+    padding: 20px;
+}
